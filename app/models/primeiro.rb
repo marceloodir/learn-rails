@@ -4,6 +4,6 @@ class Primeiro
 	end
 
 	def agora
-		agora = Date.today
+		agora = Date.today.strftime("%d/%m/%Y")
 	end
 end
